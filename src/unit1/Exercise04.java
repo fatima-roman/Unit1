@@ -9,8 +9,8 @@ public class Exercise04 {
 		Scanner sc = new Scanner(System.in);
 				
 		//Creamos las variables
-		double nota1; 
-		double nota2;
+		int nota1; 
+		int nota2;
 				
 		//Pedimos los datos al usuario 
 		System.out.println("Introduce una nota: ");
