@@ -2,7 +2,7 @@ package unit1;
 
 import java.util.Scanner;
 
-public class Exercise7 {
+public class Exercise07 {
 
 	public static void main(String[] args) {
 		//Creamos un nuevo Scanner
