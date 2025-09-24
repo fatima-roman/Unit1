@@ -16,7 +16,7 @@ public class Exercise10 {
 		System.out.print("\nIntroduce un número: ");
 		numero = sc.nextInt();
 		
-		//Analizamos si es mayor de edad
+		//Analizamos si es un numero par
 		par = numero %2 ==0 ;
 		
 		
