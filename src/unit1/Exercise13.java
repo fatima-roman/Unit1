@@ -24,7 +24,7 @@ public class Exercise13 {
 		tarea = sc.nextInt();
 		
 		//Calculamos el valor en euros 
-
+		
 		
 		
 		//Imprimimos los datos
