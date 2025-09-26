@@ -26,7 +26,7 @@ public class Exercise14 {
 		tercerTrimestre = sc.nextInt();
 		
 		
-		notaExpediente = ((primerTrimestre+segundoTrimestre+tercerTrimestre)/3);
+		notaExpediente = ((primerTrimestre+segundoTrimestre+tercerTrimestre)/3.0f);
 
 		
 		//Imprimimos los datos
