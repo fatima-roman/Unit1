@@ -24,6 +24,9 @@ public class Exercise14 {
 		
 		System.out.print("¿De cuanto fue tu media del tercer trimestre?: ");
 		tercerTrimestre = sc.nextInt();
+		
+		
+		notaExpediente = ((primerTrimestre+segundoTrimestre+tercerTrimestre)/3);
 
 		
 		//Imprimimos los datos
@@ -31,7 +34,7 @@ public class Exercise14 {
 		System.out.println("Nota segundo trimestre: " + segundoTrimestre);
 		System.out.println("Nota tercer trimestre: " + tercerTrimestre);
 		System.out.println("Nota media: " + ((primerTrimestre+segundoTrimestre+tercerTrimestre)/3));
-		System.out.println("Nota media expediente: " + (notaExpediente = ((primerTrimestre+segundoTrimestre+tercerTrimestre)/3)));
+		System.out.println("Nota media expediente: " + notaExpediente);
 		
 		sc.close();
 
