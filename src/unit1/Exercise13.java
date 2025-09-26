@@ -9,26 +9,37 @@ public class Exercise13 {
 		
 		// Create variables 
 		boolean salir; 
-		int tarea; 
-		int biblioteca; 		
-		int lluvia; 		
+		boolean tarea; 
+		boolean biblioteca; 		
+		boolean lluvia; 
+		String condiciones;
 		
 		
 		//Pedimos los datos 		
-		System.out.print("1 = SI \n 0 = NO ");
+		System.out.println(" S = SI 	 N = NO ");
 		System.out.print("¿Llueve? ");
-		lluvia = sc.nextInt();
-		System.out.print("¿Necesitas ir a la biblioteca? ");
-		biblioteca = sc.nextInt();
-		System.out.print("¿Has terminado la tarea? ");
-		tarea = sc.nextInt();
+		condiciones = sc.next();
+		// Pasa el valor a la variable correcta
+		lluvia = condiciones.equals("S"); 
 		
-		//Calculamos el valor en euros 
+		
+		System.out.print("¿Necesitas ir a la biblioteca? ");
+		condiciones = sc.next();
+		// Pasa el valor a la variable correcta
+		biblioteca = condiciones.equals("S"); 
+		
+		System.out.print("¿Has terminado la tarea? ");
+		condiciones = sc.next();
+		// Pasa el valor a la variable correcta
+		tarea = condiciones.equals("S"); 
+		
+		//Calculamos el valor 
+		salir = tarea && !lluvia || biblioteca;
 		
 		
 		
 		//Imprimimos los datos
-		System.out.println();
+		System.out.println("¿Puedes salir? " + (salir ? "Sí" : "N"));
 		
 		sc.close();
 	}

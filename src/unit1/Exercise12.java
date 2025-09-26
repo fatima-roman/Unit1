@@ -10,8 +10,9 @@ public class Exercise12 {
 		
 		// Create variables 
 		float peras; 
-		float manzanas;ç
-		final float precio peras = 
+		float manzanas;
+		final float precioPeras = 1.95f;
+		final float precioManzanas = 2.35f;
 		
 		//Pedimos los datos 
 		System.out.print("¿Cuántos kg de peras has vendido?: ");
@@ -20,8 +21,8 @@ public class Exercise12 {
 		manzanas = sc.nextFloat();
 		
 		//Calculamos el valor en euros 
-		peras = peras * 1.95f; 
-		manzanas = manzanas * 2.35f; 
+		peras = peras * precioPeras; 
+		manzanas = manzanas * precioManzanas; 
 		
 		
 		//Imprimimos los datos
