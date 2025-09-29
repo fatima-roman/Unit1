@@ -15,11 +15,11 @@ public class Ejercicio06 {
 		
 		//Ask the user for a number
 		System.out.print("Introduce un número de mm: ");
-		mm = sc.nextInt();
+		mm = sc.nextDouble();
 		System.out.print("Introduce un número de cm: ");
-		cm = sc.nextInt();
+		cm = sc.nextDouble();
 		System.out.print("Introduce un número de metros: ");
-		m = sc.nextInt();
+		m = sc.nextDouble();
 		
 		// Calcular si es multiplo del número introducido o no 
 		mm = mm / 10.0; 
