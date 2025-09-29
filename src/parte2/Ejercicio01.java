@@ -14,6 +14,7 @@ public class Ejercicio01 {
 		//Ask the user for a number
 		System.out.print("Introduce un número con decimales: ");
 		numero = sc.nextDouble();
+		numero = numero + 0.5f;
 		
 		//Print result 
 		System.out.println("El número sin decimales es: " + (int) numero);
