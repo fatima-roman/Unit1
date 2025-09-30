@@ -9,24 +9,18 @@ public class Ej2 {
 		Scanner sc = new Scanner(System.in);
 		
 		//Create variables 
-		String colgadas = "colgadas"; 
 		String a; 
 		int dato; 
 		
 		//Ask the user for a number
-		System.out.print("Introduce el número de intentos: ");
+		System.out.print("Introduce el número de la calle: ");
 		dato = sc.nextInt();
 
 		//calculate which direction it is  
-		for (int i = 0 ; i <dato; i++) {
-			System.out.print("Introduce el nombre: ");
-			a = sc.next();
-			a = a.toLowerCase();
-			a = a.equals(colgadas) ? "Bien" : "Mal";
-			//Print result 
-			System.out.println(a);
-		}
+		a = (dato%2==0)? "DERECHA":"IZQUIERDA";
 		
+		//Print result 
+		System.out.println("Esta en el lado: " + a);
 		
 		//Close Scanner
 		sc.close();
