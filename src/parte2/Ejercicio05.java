@@ -18,7 +18,7 @@ public class Ejercicio05 {
 		System.out.print("Introduce un número de segundos: ");
 		segundos = sc.nextInt();
 		
-		// Calcular si es multiplo del número introducido o no 
+		// calculate hh:mm:ss  
 		horas = segundos / 3600; 
 		minutos = (segundos % 3600)/60; 
 		segRestantes = segundos % 60; 

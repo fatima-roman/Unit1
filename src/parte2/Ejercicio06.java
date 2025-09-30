@@ -21,7 +21,7 @@ public class Ejercicio06 {
 		System.out.print("Introduce un número de metros: ");
 		m = sc.nextDouble();
 		
-		// Calcular si es multiplo del número introducido o no 
+		// calculate centimeter  
 		mm = mm / 10.0; 
 		m = m * 100.0;
 		
