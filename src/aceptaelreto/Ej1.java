@@ -19,9 +19,11 @@ public class Ej1 {
 
 		//calculate which direction it is  
 		for (int i = 0 ; i <dato; i++) {
+			//Pedimos al usuario que introduzca el nombre 
 			System.out.print("Introduce el nombre: ");
-			a = sc.next();
-			a = a.toLowerCase();
+			//Leemos el nombre en minuscula 
+			a = sc.next().toLowerCase();
+			//Comparamos con el resultado correcto
 			a = a.equals(colgadas) ? "Bien" : "Mal";
 			//Print result 
 			System.out.println(a);
