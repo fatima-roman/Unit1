@@ -22,11 +22,9 @@ public class Ej1 {
 			//Pedimos al usuario que introduzca el nombre 
 			System.out.print("Introduce el nombre: ");
 			//Leemos el nombre en minuscula 
-			a = sc.next().toLowerCase();
-			//Comparamos con el resultado correcto
-			a = a.equals(colgadas) ? "Bien" : "Mal";
+			a = sc.next();
 			//Print result 
-			System.out.println(a);
+			System.out.println(a.equalsIgnoreCase(colgadas)? "Bien": "Mal");
 		}
 		
 		
